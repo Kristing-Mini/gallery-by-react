@@ -1,7 +1,7 @@
 html,body{
   background-color:#222;
   width:100%;
-  height:100%
+  height:100%;
 }
 
 .content{
@@ -10,18 +10,45 @@ html,body{
 }
 
 .stage{
-  position:relativel
+  position:relative;
   width:100%;
-  height:680px;
+  height:100vh;
 }
 
 .img-sec{
-  position:relative;
   width:100%;
-  heigth:100%;
+  height:100%;
   overflow:hidden;
   background-color:#ddd;
+
 }
+.img-figure{
+      width:320px;
+      height:320px;
+      margin:0;
+      padding:20px;
+      background-color:#fff;
+      box-sizing:border-box;
+      position:absolute;
+}
+
+figcaption{
+    text-align:center;
+}
+
+img{
+  width:100%;
+  height:100;
+}
+
+.img-title{
+        margin:20px 0 0 0;
+        color:#a7a0a2;
+        font-size:16px;
+      }
+  
+  
+
 
 .controller-nav{
   position:absolute;
